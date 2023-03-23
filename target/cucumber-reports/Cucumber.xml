@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.665" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="test feature" name="test scenario" time="0.421">
+<system-out><![CDATA[
+Given Roomba is in position 1,2.............................................passed
+And Room size is 5 by 5.....................................................passed
+When Room has dirt patches in positions.....................................passed
+And Roomba follows the directions...........................................passed
+When Request is sent........................................................passed
+Then Roomba is in position 1,3..............................................passed
+And Roomba cleaned 1 patches................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
