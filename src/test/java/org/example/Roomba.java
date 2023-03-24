@@ -6,8 +6,8 @@ import java.util.List;
 
 public class Roomba {
 
-    private int posX;
-    private int posY;
+    private String posX;
+    private String posY;
     private List<String> instructions;
     private int patchesCleaned;
 
@@ -15,24 +15,24 @@ public class Roomba {
 
     }
 
-    public Roomba(int x, int y) {
+    public Roomba(String x, String y) {
         this.posX = x;
         this.posY = y;
     }
 
-    public int getPosX() {
+    public String getPosX() {
         return posX;
     }
 
-    public void setPosX(int posX) {
+    public void setPosX(String posX) {
         this.posX = posX;
     }
 
-    public int getPosY() {
+    public String getPosY() {
         return posY;
     }
 
-    public void setPosY(int posY) {
+    public void setPosY(String posY) {
         this.posY = posY;
     }
 
@@ -68,7 +68,7 @@ public class Roomba {
     }
 
     public void setNewJsonCoords(JsonArray jsonArray) {
-        setPosX(jsonArray.get(0).asInt());
-        setPosY(jsonArray.get(1).asInt());
+        setPosX(String.valueOf(jsonArray.get(0).asInt()));
+        setPosY(String.valueOf(jsonArray.get(1).asInt()));
     }
 }

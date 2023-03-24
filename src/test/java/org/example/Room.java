@@ -7,44 +7,44 @@ import java.util.List;
 
 public class Room {
 
-    private int sizeX;
-    private int sizeY;
-    private List<Integer[]> patches;
+    private String sizeX;
+    private String sizeY;
+    private List<String[]> patches;
 
     public Room() {
 
     }
 
-    public Room(int x, int y) {
+    public Room(String x, String y) {
         this.sizeX = x;
         this.sizeY = y;
     }
 
-    public int getSizeX() {
+    public String getSizeX() {
         return sizeX;
     }
 
-    public void setSizeX(int sizeX) {
+    public void setSizeX(String sizeX) {
         this.sizeX = sizeX;
     }
 
-    public int getSizeY() {
+    public String getSizeY() {
         return sizeY;
     }
 
-    public void setSizeY(int sizeY) {
+    public void setSizeY(String sizeY) {
         this.sizeY = sizeY;
     }
 
-    public List<Integer[]> getPatches() {
+    public List<String[]> getPatches() {
         return patches;
     }
 
-    public void addPatch(int x, int y) {
+    public void addPatch(String x, String y) {
         if (patches == null) {
-            patches = new ArrayList<Integer[]>();
+            patches = new ArrayList<String[]>();
         }
-        patches.add(new Integer[]{x,y});
+        patches.add(new String[]{x,y});
     }
 
     public JsonArray getJsonRoomSize() {
@@ -56,7 +56,7 @@ public class Room {
 
     public JsonArray getJsonPatches() {
         JsonArray patches = new JsonArray();
-        for (Integer[] patch : getPatches()) {
+        for (String[] patch : getPatches()) {
             JsonArray jsonPatch = new JsonArray();
             jsonPatch.add(patch[0]);
             jsonPatch.add(patch[1]);
