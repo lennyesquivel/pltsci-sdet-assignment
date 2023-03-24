@@ -1,7 +1,7 @@
 /Users/lennyesquivel/IdeaProjects/pltsci/src/test/java/org/example/steps/TestSteps.java
-/Users/lennyesquivel/IdeaProjects/pltsci/src/test/java/org/example/Roomba.java
 /Users/lennyesquivel/IdeaProjects/pltsci/src/test/java/org/example/utils/PropertiesUtils.java
+/Users/lennyesquivel/IdeaProjects/pltsci/src/test/java/org/example/models/Room.java
 /Users/lennyesquivel/IdeaProjects/pltsci/src/test/java/org/example/utils/ApiUtils.java
 /Users/lennyesquivel/IdeaProjects/pltsci/src/test/java/org/example/utils/SetupHelper.java
 /Users/lennyesquivel/IdeaProjects/pltsci/src/test/java/org/example/CucumberTestRunner.java
-/Users/lennyesquivel/IdeaProjects/pltsci/src/test/java/org/example/Room.java
+/Users/lennyesquivel/IdeaProjects/pltsci/src/test/java/org/example/models/Roomba.java

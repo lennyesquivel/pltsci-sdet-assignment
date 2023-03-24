@@ -1,4 +1,4 @@
-package org.example;
+package org.example.models;
 
 import io.cucumber.cienvironment.internal.com.eclipsesource.json.JsonArray;
 
@@ -37,6 +37,9 @@ public class Room {
     }
 
     public List<String[]> getPatches() {
+        if (patches == null) {
+            patches = new ArrayList<String[]>();
+        }
         return patches;
     }
 

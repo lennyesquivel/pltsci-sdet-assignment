@@ -1,7 +1,7 @@
 org/example/utils/SetupHelper.class
 org/example/utils/ApiUtils.class
+org/example/models/Roomba.class
 org/example/steps/TestSteps.class
 org/example/CucumberTestRunner.class
-org/example/Room.class
+org/example/models/Room.class
 org/example/utils/PropertiesUtils.class
-org/example/Roomba.class

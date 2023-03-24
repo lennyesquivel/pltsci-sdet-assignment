@@ -1,4 +1,4 @@
-package org.example;
+package org.example.models;
 
 import io.cucumber.cienvironment.internal.com.eclipsesource.json.JsonArray;
 
